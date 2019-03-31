@@ -3,7 +3,7 @@
 import requests
 
 # Set the request parameters
-url = 'https://dev70265.service-now.com/api/now/table/incident?sysparm_query=caller%3D%22abel.tuter%22&sysparm_limit=5'
+url = 'https://dev70265.service-now.com/api/now/table/incident?sysparm_query=callerabel.tuter&sysparm_limit=5'
 
 # Eg. User name="admin", Password="admin" for this code sample.
 user = 'admin'
