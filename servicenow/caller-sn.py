@@ -1,9 +1,13 @@
 #Need to install requests package for python
+'''
+this is to search for all incidents where caller is abel.tutor
+the table column is case insensitive
+'''
 #easy_install requests
 import requests
 
 # Set the request parameters
-url = 'https://dev70265.service-now.com/api/now/table/incident?sysparm_query=callerabel.tuter&sysparm_limit=5'
+url = 'https://dev70265.service-now.com/api/now/table/incident?sysparm_query=Callerabel.tuter&sysparm_limit=5'
 
 # Eg. User name="admin", Password="admin" for this code sample.
 user = 'admin'
